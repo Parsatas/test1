@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="/assets/css/util.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar sevtion ----------start--------------- -->
+    <nav class="white z-depth-0 top-navbar">
+        <div class="nav-wrapper">
+            <a href="#!" class="blue-text hide-on-med-and-up">User Management</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+                    class="material-icons blue-text">menu</i></a>
+            <ul class="hide-on-med-and-down">
+                <li><a href="/index.html" class="blue-text">Home</a></li>
+                <li><a href="/users.html" class="blue-text">User Management</a></li>
+                <li><a href="https://codeyad.com" class="blue-text">Codeyad</a></li>
+                <li><a href="mobile.html" class="blue-text">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="/assets/images/office.jpg" class="w-full">
+                </div>
+                <a href="#user"><img class="circle" src="/assets/images/avatar.png"></a>
+                <a href="#name"><span class="white-text name">Parsa t</span></a>
+                <a href="#email"><span class="white-text email">test@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="https://codeyad.com"><i class="material-icons">link</i>Codyad</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Home</a></li>
+        <li><a class="waves-effect" href="#!">User</a></li>
+    </ul>
+    <!-- navbar sevtion ---------- end --------------- -->
+
+    <!-- content sevtion ---------- start --------------- -->
+    <section id="top_actions_section">
+        <!--- add button --------------- -->
+        <div class="p-l-20 p-r-20 p-t-10">
+            <button class="waves-effect waves-light btn blue darken-2 w-full flex-c rounded_pill">
+                <i class="material-icons m-r-5">add</i>
+                Add User
+            </button>
+        </div>
+        <!--- search input --------------- -->
+        <div class="row p-l-10 p-r-10">
+            <div class="input-field col s12">
+                <input id="search" type="text" class="validate">
+                <label for="search">
+                    <i class="material-icons pos-relative top-7">search</i>
+                    search
+                </label>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- content sevtion ---------- start --------------- -->
+
+
+
+
+
+    <script src="/assets/materialize/js/materialize.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
