@@ -4,7 +4,16 @@
     }
 
     .top_action_section {
-        display: flex;
-        align-items: center;
+        display: flex !important;
+        align-items: center !important;
     }
+}
+
+.user_list_item.active .user_list_arrow_icon {
+    transform: rotate(180deg);
+}
+
+.user_list_item.active,
+.user_list_item.active .collapsible-header {
+    background-color: rgba(199, 199, 199, 0.295)
 }
