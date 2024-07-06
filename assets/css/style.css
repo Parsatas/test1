@@ -9,6 +9,12 @@
     }
 }
 
+@media(max-width : 600px) {
+    .container {
+        width: 100% !important;
+    }
+}
+
 .user_list_item.active .user_list_arrow_icon {
     transform: rotate(180deg);
 }
