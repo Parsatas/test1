@@ -7,20 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="/assets/materialize/css/materialize-rtl.min.css">
     <link rel="stylesheet" href="/assets/css/util.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
-<body>
+<body dir="rtl">
 
     <!-- navbar sevtion ----------start--------------- -->
     <nav class="white z-depth-0 top-navbar">
         <div class="nav-wrapper">
             <a href="#!" class="blue-text hide-on-med-and-up">User Management</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i
                     class="material-icons blue-text">menu</i></a>
-            <ul class="hide-on-med-and-down">
+            <ul class="hide-on-med-and-down dis-flex">
                 <li><a href="/index.html" class="blue-text">Home</a></li>
                 <li><a href="/users.html" class="blue-text">User Management</a></li>
                 <li><a href="https://codeyad.com" class="blue-text">Codeyad</a></li>
@@ -40,8 +41,8 @@
                 <a href="#email"><span class="white-text email">test@gmail.com</span></a>
             </div>
         </li>
-        <li><a href="https://codeyad.com"><i class="material-icons">link</i>Codyad</a></li>
-        <li><a href="#!">Second Link</a></li>
+        <li><a href="https://codeyad.com"><i class="material-icons right sidenav_link_icon">link</i>Codyad</a></li>
+        <li><a href="#!"><i class="material-icons right sidenav_link_icon">link</i>Second Link</a></li>
         <li>
             <div class="divider"></div>
         </li>
@@ -216,9 +217,9 @@
             </div>
             <div class="pagination_buttons">
                 <i
-                    class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">keyboard_arrow_left</i>
-                <i
                     class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">keyboard_arrow_right</i>
+                <i
+                    class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">keyboard_arrow_left</i>
             </div>
         </div>
     </section>
@@ -234,20 +235,20 @@
             <form>
                 <div class="input-field col s12">
                     <input id="name" type="text" class="validate">
-                    <label for="name">Name</label>
+                    <label for="name">نام</label>
                 </div>
                 <div class="input-field col s12">
                     <input id="username" type="text" class="validate">
-                    <label for="username">Username</label>
+                    <label for="username">نام کاربری</label>
                 </div>
                 <div class="input-field col s12">
                     <input id="email" type="text" class="validate">
-                    <label for="email">Email</label>
+                    <label for="email">ثبت</label>
                 </div>
 
                 <button type="button"
                     class="waves-effect waves-light btn blue darken-3 m-t-20 m-b-10 w-full max-w-250 rounded_pill">
-                    submit
+                    <p class="m-t-0 m-b-0">ثبت نام</p>
                 </button>
             </form>
         </div>
